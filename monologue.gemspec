@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency "jquery-rails"
   s.add_dependency 'rails-i18n'
   s.add_dependency "ckeditor",'~> 4.1.1'
-  s.add_dependency 'select2-rails', :git => "git://github.com/argerim/select2-rails.git", '~> 4.0'
+  s.add_dependency 'select2-rails', '~> 4.0', :git => "git://github.com/argerim/select2-rails.git"
   s.add_dependency "sass-rails",'~> 5.0.0'
   s.add_dependency "responders", '~> 2.1.0'
 
